@@ -12,9 +12,9 @@ They have supplied you with a csv file called `"bank_marketing.csv"`, which you 
 |--------|-----------|-------------|-----------------------|
 | `client_id` | `integer` | Client ID | N/A |
 | `age` | `integer` | Client's age in years | N/A |
-| `job` | `object` | Client's type of job | Change `"."` to `"_"` |
+| `job` | `object` | Client's type of job | Standardize the data |
 | `marital` | `object` | Client's marital status | N/A |
-| `education` | `object` | Client's level of education | Change `"."` to `"_"` and `"unknown"` to `np.NaN` |
+| `education` | `object` | Client's level of education | Change `"."` to `" "` and `"unknown"` to `np.nan` |
 | `credit_default` | `bool` | Whether the client's credit is in default | Convert to `boolean` data type:<br> `1` if `"yes"`, otherwise `0` |
 | `mortgage` | `bool` | Whether the client has an existing mortgage (housing loan) | Convert to boolean data type:<br> `1` if `"yes"`, otherwise `0` |
 
